@@ -1,3 +1,15 @@
-body {
-    background-color: green;
+.container {
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    width: 100px;
+    height: 100px;
 }
